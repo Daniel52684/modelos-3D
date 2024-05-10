@@ -53,3 +53,7 @@ h1{
     background-color: black;
     border-radius: 15px;
 }
+.concreto{
+    position: relative;
+    margin: 0 0 50px 0;
+}
