@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: black;
+    font-family: montserrat;
+    font-size: 20px;
+}
+.paragrafo{
+    color: white;
+    text-align: center;
+}
+.gradiente1{
+    font-size: 20px;
+    background-image: linear-gradient(to right, gray, white);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+.gradiente{
+    font-size: 20px;
+    background-image: linear-gradient(to right, #860EFF, #4482FD, #3D299F);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+.p1{
+    margin: 30px 0 5px 0;
+    font-size: 16px;
+}
+.p2{
+    margin: 200px 0 5px 0;
+    font-size: 20px;
+}
+.caixa{
+    position: relative;
+
+}
+.caixa nav{
+    right: 0px;
+    text-align: end;
+    margin: -56px 50px;
+    position: absolute;
+}
+.logo{
+    margin: 20px 0 0 25px ;
+    
+}
+h1{
+    text-align: center;
+}
+.botao {
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 8px 10px 8px 10px;
+    margin-right: 40px;
+    border: solid 1px;
+}
+.concreto{
+    position: relative;
+    margin: 0 0 50px 0;
+}
+
+.gradiente2{
+    font-size: 20px;
+    background-image: linear-gradient(to right, #860EFF, #4482FD, #3D299F);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
