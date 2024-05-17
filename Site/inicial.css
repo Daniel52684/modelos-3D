@@ -6,6 +6,7 @@ body{
     font-family: montserrat;
     font-size: 20px;
 }
+
 .paragrafo{
     color: white;
     text-align: center;
@@ -16,7 +17,8 @@ body{
     background-clip: text;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
-    font-size: 50px;
+    margin-top: 70px;
+    font-size: 70px;
 }
 .gradiente{
     font-size: 20px;
@@ -40,7 +42,7 @@ body{
 .caixa nav{
     right: 0px;
     text-align: end;
-    margin: -56px 50px;
+    margin: -53px 40px;
     position: absolute;
 }
 .logo{
@@ -54,8 +56,8 @@ h1{
     color: white;
     background-color: black;
     border-radius: 12px;
-    padding: 8px 10px 8px 10px;
-    margin-right: 40px;
+    padding: 8px 20px;
+    margin-right: 35px;
     border: solid 1px;
 }
 .concreto{
@@ -70,3 +72,22 @@ h1{
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
+.temas{
+    text-align: center;
+    margin: 25px 0 0 93px;
+}
+.imgtemas{
+    margin-right: 70px ;
+}
+.botao_ex{
+    padding: 3px 25px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border: solid 3px;
+    border-image: linear-gradient(to right, #860EFF, #4482FD, #860EFF) 1;
+  }
+  .explorar{
+    margin: 80px 0 0 0;
+    text-align: center;
+  }
