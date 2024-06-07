@@ -52,14 +52,39 @@ body{
 h1{
     text-align: center;
 }
-.botao {
+.botaoex {
     color: white;
     background-color: black;
     border-radius: 12px;
     padding: 8px 20px;
     margin-right: 35px;
     border: solid 1px;
+    transition: 1s;
+    transform: scale(1);
 }
+
+.botaoex:hover {
+   transition: 1s;
+   transform: scale(1.1);
+}
+
+.botaologin {
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 8px 20px;
+    margin-right: 35px;
+    border: solid 1px;
+    transition: 1s;
+    transform: scale(1);
+}
+
+.botaologin:hover {
+    transition: 1s;
+    transform: scale(1.1);
+ }
+ 
+
 .concreto{
     position: relative;
     margin: 0 0 50px 0;
@@ -76,9 +101,57 @@ h1{
     text-align: center;
     margin: 25px 0 0 93px;
 }
-.imgtemas{
-    margin-right: 70px ;
+.imgtema1{
+    margin-right: 20px;
+    transition: 1s;
+    transform: translateX(0) scale(0.8);
+    filter:saturate(75%);
+    filter: blur(5px);
 }
+
+.imgtema1:hover {    
+    transition: 1s;
+    animation-duration: 1s;
+    transform: scale(1);
+    filter:saturate(100%);
+    filter: blur(0px);
+}
+
+.imgtema2{
+    margin-right: 20px;
+    transition: 1s;
+    transform: translateX(0) scale(0.8);
+    filter:saturate(75%);
+}
+
+
+
+.imgtema2:hover {    
+    transition: 1s;
+    animation-duration: 1s;
+    transform: scale(1.08);
+    filter:saturate(100%);
+}
+
+
+.imgtema3{
+    margin-right: 20px;
+    transition: 1s;
+    transform: translateX(0) scale(0.8);
+    filter:saturate(50%);
+    filter: blur(5px);
+}
+
+.imgtema3:hover {    
+    transition: 1s;
+
+    transform: scale(1);
+    filter:saturate(100%);
+    filter: blur(0px);
+
+}
+
+
 .botao_ex{
     padding: 3px 25px;
     font-size: 30px;
@@ -86,8 +159,29 @@ h1{
     background-color: black;
     border: solid 3px;
     border-image: linear-gradient(to right, #860EFF, #4482FD, #860EFF) 1;
-  }
+    transform: scale(1);
+
+}
+
+.botao_ex:hover {
+    transition: 1s;
+    transform: scale(1.10);
+ }
+
+
   .explorar{
     margin: 80px 0 0 0;
     text-align: center;
+  }
+  footer{
+    margin-top: 20;
+  }
+  footer div{
+    position: relative;
+  }
+  .logo_f{
+    position: absolute;
+  }
+  .img_f{
+    margin-left: 920px;
   }
