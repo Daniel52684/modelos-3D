@@ -11,15 +11,17 @@ body{
     color: white;
     text-align: center;
 }
+
 .gradiente1{
     font-size: 20px;
-    background-image: linear-gradient(to right, gray, white);
+    background-image: linear-gradient(to right, rgb(73, 72, 72), white);
     background-clip: text;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
     margin-top: 70px;
     font-size: 70px;
 }
+
 .gradiente{
     font-size: 20px;
     background-image: linear-gradient(to right, #860EFF, #4482FD, #3D299F);
@@ -27,31 +29,38 @@ body{
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
+
 .p1{
     margin: 30px 0 5px 0;
     font-size: 16px;
 }
+
 .p2{
     margin: 200px 0 5px 0;
     font-size: 20px;
 }
+
 .caixa{
     position: relative;
 
 }
+
 .caixa nav{
     right: 0px;
     text-align: end;
     margin: -53px 40px;
     position: absolute;
 }
+
 .logo{
     margin: 20px 0 0 25px ;
     
 }
+
 h1{
     text-align: center;
 }
+
 .botaoex {
     color: white;
     background-color: black;
@@ -97,10 +106,12 @@ h1{
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
+
 .temas{
     text-align: center;
     margin: 25px 0 0 93px;
 }
+
 .imgtema1{
     margin-right: 20px;
     transition: 1s;
@@ -124,15 +135,12 @@ h1{
     filter:saturate(75%);
 }
 
-
-
 .imgtema2:hover {    
     transition: 1s;
     animation-duration: 1s;
     transform: scale(1.08);
     filter:saturate(100%);
 }
-
 
 .imgtema3{
     margin-right: 20px;
@@ -151,7 +159,6 @@ h1{
 
 }
 
-
 .botao_ex{
     padding: 3px 25px;
     font-size: 30px;
@@ -168,20 +175,33 @@ h1{
     transform: scale(1.10);
  }
 
-
-  .explorar{
+.explorar {
     margin: 80px 0 0 0;
     text-align: center;
-  }
-  footer{
-    margin-top: 20;
-  }
-  footer div{
-    position: relative;
-  }
-  .logo_f{
-    position: absolute;
-  }
-  .img_f{
-    margin-left: 920px;
-  }
+}
+
+footer {
+    font-family: montserrat;
+	background-color: #000000;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul{
+    
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
